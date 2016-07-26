@@ -11,7 +11,7 @@ $ npm install arraybuffer-loader --save-dev
 
 [Documentation: Using loaders](http://webpack.github.io/docs/using-loaders.html)
 
-```
+```js
 var buffer = require('arraybuffer!./data.dat')
 var array  = new Uint8Array(buffer)
 
