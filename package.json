@@ -1,6 +1,6 @@
 {
   "name": "arraybuffer-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Webpack loader that returns file contents as a ArrayBuffer",
   "scripts": {
     "test": "karma start"
