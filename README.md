@@ -1,6 +1,8 @@
 ArrayBuffer loader for webpack
 ------------------------------
 
+[![Travis](https://img.shields.io/travis/pine/arraybuffer-loader/master.svg?maxAge=2592000&style=flat-square)](https://travis-ci.org/pine/arraybuffer-loader)
+
 ## Getting Started
 
 ```
