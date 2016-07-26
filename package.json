@@ -1,0 +1,39 @@
+{
+  "name": "arraybuffer-loader",
+  "version": "0.1.0",
+  "description": "Webpack loader that returns file contents as a ArrayBuffer",
+  "scripts": {
+    "test": "karma start"
+  },
+  "main": "index.js",
+  "files": [
+    "lib",
+    "index.js",
+    "*.md"
+  ],
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "dependencies": {
+    "loader-utils": "^0.2.15"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "karma": "^1.1.2",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^1.1.1",
+    "karma-mocha-reporter": "^2.0.4",
+    "karma-phantomjs2-launcher": "^0.5.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.5.3",
+    "text-encoding": "^0.6.0",
+    "webpack": "^1.13.1"
+  },
+  "author": {
+    "name": "Pine Mizune",
+    "email": "pinemz@gmail.com",
+    "url": "https://github.com/pine"
+  },
+  "license": "MIT"
+}
