@@ -19,3 +19,13 @@ describe('text files', function () {
     expect(text).to.equal('\uD83D\uDE07\n') // :innocent:
   })
 })
+
+describe('binary files', function () {
+  it('can bundle binary file', function () {
+    var buffer   = require('arraybuffer!./data/binary.dat')
+    var binarray = new Uint8Array(buffer)
+    var array    = Array.prototype.slice.call(binarray) // Array.from
+
+    expect(array).to.deep.equal([ 0x01, 0x02, 0x04, 0x00 ])
+  })
+})
