@@ -28,4 +28,11 @@ describe('binary files', function () {
 
     expect(array).to.deep.equal([ 0x01, 0x02, 0x04, 0x00 ])
   })
+
+  it('can bundle empty file', function () {
+    var buffer   = require('arraybuffer!./data/empty.dat')
+    var binarray = new Uint8Array(buffer)
+
+    expect(binarray.length).to.have.length.equal(0)
+  })
 })
