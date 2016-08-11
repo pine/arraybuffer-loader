@@ -66,7 +66,7 @@ module.exports = function(config) {
     customLaunchers: customLaunchers,
     singleRun: true,
 
-    sourceLabs: {
+    sauceLabs: {
       public: 'public',
     },
     concurrency: 3,
