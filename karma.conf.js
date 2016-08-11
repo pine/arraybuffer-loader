@@ -35,7 +35,7 @@ const customLaunchers = {
   },
 }
 
-const isTravis = process.env.TRAVIS === 'true'
+const isTravis   = process.env.TRAVIS === 'true'
 const isFirstJob = /\.1$/.test(process.env.TRAVIS_JOB_NUMBER)
 
 const browsers = ['PhantomJS2']
