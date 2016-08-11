@@ -65,6 +65,10 @@ module.exports = function(config) {
     browsers: browsers,
     customLaunchers: customLaunchers,
     singleRun: true,
+
+    sourceLabs: {
+      public: 'public',
+    },
     concurrency: 3,
 
     webpack: {
