@@ -65,6 +65,7 @@ module.exports = function(config) {
     browsers: browsers,
     customLaunchers: customLaunchers,
     singleRun: true,
+    concurrency: 3,
 
     webpack: {
       devtool: 'inline-source-map',
