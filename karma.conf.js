@@ -69,7 +69,7 @@ module.exports = function(config) {
     sauceLabs: {
       public: 'public',
     },
-    concurrency: isTravis ? 1 : Infinity,
+    concurrency: isTravis ? 5 : Infinity,
 
     webpack: {
       devtool: 'inline-source-map',
