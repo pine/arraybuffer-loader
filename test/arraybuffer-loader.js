@@ -1,6 +1,7 @@
 'use strict'
 
 var TextDecoder = require('text-encoding').TextDecoder
+var expect = require('chai').expect
 
 describe('text files', function () {
   it('can bundle ascii text file', function () {

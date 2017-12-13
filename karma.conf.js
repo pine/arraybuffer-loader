@@ -55,7 +55,7 @@ module.exports = function(config) {
       'test/**/*.js': ['webpack', 'sourcemap'],
     },
 
-    frameworks: ['mocha', 'chai'],
+    frameworks: ['mocha'],
     reporters: ['mocha', 'saucelabs'],
 
     port: 9876,
