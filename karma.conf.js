@@ -74,7 +74,7 @@ module.exports = function(config) {
     webpack: {
       devtool: 'inline-source-map',
       module: {
-        loaders: [],
+        rules: [],
       },
       resolveLoader: {
         alias: {
@@ -82,7 +82,7 @@ module.exports = function(config) {
         },
       },
       resolve: {
-        extensions: ['', '.js', '.json']
+        extensions: ['.js', '.json']
       },
     },
     webpackMiddleware: {
