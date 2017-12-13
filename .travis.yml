@@ -5,6 +5,11 @@ node_js:
   - 8
   - stable
 
+scripts:
+  - travis_retry yarn test
+
+cache: yarn
+
 env:
   global:
     - secure: "YCVDOn2jN2dPgdhbqVshToIdQ/Gdcn7725/AXTqh73+5WYZfCeJBWnRcSQqsTT8NBsMGMj+QroKlkN7xibWHgmyCWsp+ZCMHR2J1ZlYuRyxUbz327bRNm2ibMU5qN+wWvsDaeYMJl5pd2gcYkHcZUU6JrY9zWmP7d7Zj6bdtoAcq4aA0mimkfNPF/xnNKRxJ0YF46FaMJlpM2b7rEoA1vzuhdI8mo+R3OUk5ASsPF2PrwSdaYdPmfoogNAtUMLatyD/4WXOJi/8B/QySJT14MVrdudhSw9WgdiduTfgQZaHb9Q4Mgzqu/HVG7NH1/Qb03OfDrqNiY7pftzX2G8N0+PstkVPrEXuOHADGb5tHseVAe5aOV+BI8v8+hYst26CJQiYMHOF07/uammG2dCxIESBhsvO093qJO1Spta9j64+DbSJuFvaggb08lqAT6EqVYNs4cz+08KDOuZOoiXvhHGRhYpD251lwvwX7nfO1u4wA2A8JfMgSLRp/jJNHT4r9hQyrpUh49v8GyeH5vp3ECyuoUGfAOLqweO6t5nEN/OPu2kpNRFHFb7ycJZxEtdQ3gBL01jzus4q546WzOdq8+Fv/EYGTrDHO+spLd0bjdG6Z08n//4Cpy+2uiMgsn9OA3naPE4lTn7AxgYdlvkNY1a+5nRg491ccnBBBQXHGXoI="
