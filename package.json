@@ -3,7 +3,7 @@
   "version": "0.2.2",
   "description": "Webpack loader that returns file contents as a ArrayBuffer",
   "scripts": {
-    "test": "karma start"
+    "test": "karma start --single-run"
   },
   "main": "index.js",
   "files": [

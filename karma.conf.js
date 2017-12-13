@@ -64,7 +64,7 @@ module.exports = function(config) {
     autoWatch: true,
     browsers: browsers,
     customLaunchers: customLaunchers,
-    singleRun: true,
+    singleRun: false,
 
     sauceLabs: {
       public: 'public',
