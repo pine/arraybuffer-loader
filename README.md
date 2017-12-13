@@ -26,4 +26,4 @@ var array  = new Uint8Array(buffer)
 ```
 
 ## License
-MIT
+MIT &copy; Pine Mizune
