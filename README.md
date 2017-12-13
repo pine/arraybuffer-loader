@@ -16,7 +16,7 @@ $ npm install arraybuffer-loader --save-dev
 
 ## Usage
 
-[Documentation: Using loaders](http://webpack.github.io/docs/using-loaders.html)
+See offical document [Loaders](https://webpack.js.org/concepts/loaders/).
 
 ```js
 var buffer = require('arraybuffer!./data.dat')
