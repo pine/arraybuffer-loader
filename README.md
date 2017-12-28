@@ -12,6 +12,13 @@ ArrayBuffer loader for webpack
 
 ## Getting Started
 
+
+```
+$ yarn add arraybuffer-loader
+```
+
+or
+
 ```
 $ npm install arraybuffer-loader --save-dev
 ```
