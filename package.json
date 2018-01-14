@@ -1,6 +1,6 @@
 {
   "name": "arraybuffer-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Webpack loader that returns file contents as a ArrayBuffer",
   "scripts": {
     "test": "npm-run-all test-browser test-node",
