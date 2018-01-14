@@ -5,7 +5,7 @@ node_js:
   - 8
   - stable
 
-test::
+script::
   - travis_retry npm test
 
 env:
