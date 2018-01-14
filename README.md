@@ -2,6 +2,7 @@ ArrayBuffer loader for webpack
 ------------------------------
 
 [![NPM](https://nodei.co/npm/arraybuffer-loader.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/arraybuffer-loader/)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpine%2Farraybuffer-loader.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpine%2Farraybuffer-loader?ref=badge_shield)
 
 [![npm](https://img.shields.io/npm/v/arraybuffer-loader.svg?maxAge=2592000&style=flat-square)](https://www.npmjs.org/package/arraybuffer-loader)
 [![Travis](https://img.shields.io/travis/pine/arraybuffer-loader/master.svg?maxAge=2592000&style=flat-square)](https://travis-ci.org/pine/arraybuffer-loader)
@@ -36,3 +37,6 @@ var array  = new Uint8Array(buffer)
 
 ## License
 MIT &copy; Pine Mizune
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpine%2Farraybuffer-loader.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpine%2Farraybuffer-loader?ref=badge_large)
