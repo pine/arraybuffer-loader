@@ -11,6 +11,11 @@ ArrayBuffer loader for webpack
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpine%2Farraybuffer-loader.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpine%2Farraybuffer-loader?ref=badge_shield)
 
 
+## Supported Platforms
+
+- Modern Browsers (IE >= 10)
+- Node.js
+
 ## Getting Started
 
 
@@ -25,15 +30,27 @@ $ npm install arraybuffer-loader --save-dev
 ```
 
 ## Usage
-
-See offical document [Loaders](https://webpack.js.org/concepts/loaders/).
+If you read only the specific extensions (e.g. wasm), please add loader in `webpack.config.js`.
 
 ```js
-var buffer = require('arraybuffer!./data.dat')
-var array  = new Uint8Array(buffer)
-
-// Enjoy!!
+module: {
+  loaders: [
+    {
+      test: /\.wasm$/,
+      loaders: ['arraybuffer-loader'],
+    },
+  ],
+},
 ```
+
+Or if reading an arbitrary extension, use `require`.
+
+```js
+const buffer = require('arraybuffer!./data.dat')
+const array = new Uint8Array(buffer)
+```
+
+See also offical document [Loaders](https://webpack.js.org/concepts/loaders/).
 
 ## License
 MIT &copy; Pine Mizune
