@@ -1,6 +1,8 @@
 ArrayBuffer loader for webpack
 ------------------------------
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pine/arraybuffer-loader.svg)](https://greenkeeper.io/)
+
 [![NPM](https://nodei.co/npm/arraybuffer-loader.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/arraybuffer-loader/)
 
 [![npm](https://img.shields.io/npm/v/arraybuffer-loader.svg?maxAge=2592000)](https://www.npmjs.org/package/arraybuffer-loader)
