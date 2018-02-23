@@ -1,8 +1,6 @@
 ArrayBuffer loader for webpack
 ------------------------------
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/pine/arraybuffer-loader.svg)](https://greenkeeper.io/)
-
 [![NPM](https://nodei.co/npm/arraybuffer-loader.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/arraybuffer-loader/)
 
 [![npm](https://img.shields.io/npm/v/arraybuffer-loader.svg?maxAge=2592000)](https://www.npmjs.org/package/arraybuffer-loader)
@@ -11,6 +9,7 @@ ArrayBuffer loader for webpack
 [![Dependency Status](https://img.shields.io/david/pine/arraybuffer-loader.svg?maxAge=2592000)](https://david-dm.org/pine/arraybuffer-loader)
 [![devDependency Status](https://img.shields.io/david/dev/pine/arraybuffer-loader.svg?maxAge=2592000)](https://david-dm.org/pine/arraybuffer-loader?type=dev)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpine%2Farraybuffer-loader.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpine%2Farraybuffer-loader?ref=badge_shield)
+[![Greenkeeper badge](https://badges.greenkeeper.io/pine/arraybuffer-loader.svg)](https://greenkeeper.io/)
 
 
 ## Supported Platforms
