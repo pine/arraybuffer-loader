@@ -14,6 +14,7 @@ module.exports = {
   module: {
     rules: [],
   },
+  performance: { hints: false },
   resolveLoader: {
     alias: {
       'arraybuffer': path.join(__dirname, './'),

@@ -72,10 +72,12 @@ module.exports = function(config) {
     concurrency: isTravis ? 5 : Infinity,
 
     webpack: {
+      mode: 'production',
       devtool: 'inline-source-map',
       module: {
         rules: [],
       },
+      performance: { hints: false },
       resolveLoader: {
         alias: {
           'arraybuffer': path.join(__dirname, './'),
