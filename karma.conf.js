@@ -84,6 +84,7 @@ module.exports = function(config) {
       resolve: {
         extensions: ['.js', '.json']
       },
+      mode: 'development',
     },
     webpackMiddleware: {
       noInfo: true,

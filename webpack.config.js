@@ -22,4 +22,5 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.json']
   },
+  mode: 'development',
 }
