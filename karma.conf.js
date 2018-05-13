@@ -38,7 +38,7 @@ const customLaunchers = {
 const isTravis   = process.env.TRAVIS === 'true'
 const isFirstJob = /\.1$/.test(process.env.TRAVIS_JOB_NUMBER)
 
-const browsers = ['PhantomJS2']
+const browsers = ['PhantomJS']
 if (isTravis && isFirstJob) {
   Array.prototype.push.apply(browsers, Object.keys(customLaunchers))
 }
@@ -84,6 +84,7 @@ module.exports = function(config) {
       resolve: {
         extensions: ['.js', '.json']
       },
+      mode: 'development',
     },
     webpackMiddleware: {
       noInfo: true,
