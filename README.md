@@ -37,7 +37,7 @@ If you read only the specific extensions (e.g. wasm), please add loader in `webp
 module: {
   loaders: [
     {
-      test: /\.wasm$/,
+      test: /\.png$/,
       loaders: ['arraybuffer-loader'],
     },
   ],
@@ -52,6 +52,21 @@ const array = new Uint8Array(buffer)
 ```
 
 See also offical document [Loaders](https://webpack.js.org/concepts/loaders/).
+
+### For `.wasm` file
+Webpack 4 or later has embedded WASM parser. So, please set `type: 'javascript/auto'` when use `arraybuffer-loader`.
+
+```js
+module: {
+  loaders: [
+    {
+      test: /\.wasm$/,
+      type: 'javascript/auto',
+      loaders: ['arraybuffer-loader'],
+    },
+  ],
+},
+```
 
 ## License
 MIT &copy; Pine Mizune
