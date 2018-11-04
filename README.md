@@ -8,7 +8,6 @@ ArrayBuffer loader for webpack
 [![Build status](https://ci.appveyor.com/api/projects/status/0p14m3bkv130m916/branch/master?svg=true)](https://ci.appveyor.com/project/pine/arraybuffer-loader/branch/master)
 [![Dependency Status](https://img.shields.io/david/pine/arraybuffer-loader.svg?maxAge=2592000)](https://david-dm.org/pine/arraybuffer-loader)
 [![devDependency Status](https://img.shields.io/david/dev/pine/arraybuffer-loader.svg?maxAge=2592000)](https://david-dm.org/pine/arraybuffer-loader?type=dev)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpine%2Farraybuffer-loader.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpine%2Farraybuffer-loader?ref=badge_shield)
 [![Greenkeeper badge](https://badges.greenkeeper.io/pine/arraybuffer-loader.svg)](https://greenkeeper.io/)
 
 
@@ -70,6 +69,3 @@ module: {
 
 ## License
 MIT &copy; Pine Mizune
-
-
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpine%2Farraybuffer-loader.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpine%2Farraybuffer-loader?ref=badge_large)
