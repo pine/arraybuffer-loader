@@ -8,6 +8,7 @@ ArrayBuffer loader for webpack
 [![Build status](https://ci.appveyor.com/api/projects/status/0p14m3bkv130m916/branch/master?svg=true)](https://ci.appveyor.com/project/pine/arraybuffer-loader/branch/master)
 [![Dependency Status](https://img.shields.io/david/pine/arraybuffer-loader.svg?maxAge=2592000)](https://david-dm.org/pine/arraybuffer-loader)
 [![devDependency Status](https://img.shields.io/david/dev/pine/arraybuffer-loader.svg?maxAge=2592000)](https://david-dm.org/pine/arraybuffer-loader?type=dev)
+[![Maintainability](https://api.codeclimate.com/v1/badges/b3adc2dc975b010a6e92/maintainability)](https://codeclimate.com/github/pine/arraybuffer-loader/maintainability)
 [![Greenkeeper badge](https://badges.greenkeeper.io/pine/arraybuffer-loader.svg)](https://greenkeeper.io/)
 
 
