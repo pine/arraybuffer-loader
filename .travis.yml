@@ -3,7 +3,7 @@ node_js:
   - 6
   - 8
   - 10
-  - latest
+  - stable
 
 script:
   - travis_retry npm test
