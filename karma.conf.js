@@ -24,10 +24,7 @@ module.exports = function(config) {
     browsers: ['PhantomJS'],
     singleRun: false,
 
-    sauceLabs: {
-      public: 'public',
-    },
-    concurrency: isTravis ? 1 : Infinity,
+    concurrency: 1,
 
     webpack: {
       devtool: 'inline-source-map',
