@@ -35,7 +35,7 @@ If you read only the specific extensions (e.g. wasm), please add loader in `webp
 
 ```js
 module: {
-  loaders: [
+  rules: [
     {
       test: /\.png$/,
       loaders: ['arraybuffer-loader'],
@@ -58,7 +58,7 @@ Webpack 4 or later has embedded WASM parser. So, please set `type: 'javascript/a
 
 ```js
 module: {
-  loaders: [
+  rules: [
     {
       test: /\.wasm$/,
       type: 'javascript/auto',
