@@ -15,7 +15,7 @@ module.exports = function(config) {
     },
 
     frameworks: ['mocha'],
-    reporters: ['mocha', 'saucelabs'],
+    reporters: ['mocha'],
 
     port: 9876,
     colors: true,
