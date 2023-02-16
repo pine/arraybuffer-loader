@@ -1,6 +1,9 @@
 # arraybuffer-loader &nbsp;&nbsp;[![npm](https://img.shields.io/npm/v/arraybuffer-loader.svg?maxAge=2592000)](https://www.npmjs.org/package/arraybuffer-loader) [![build](https://github.com/pine/arraybuffer-loader/actions/workflows/build.yml/badge.svg)](https://github.com/pine/arraybuffer-loader/actions/workflows/build.yml) [![License](https://img.shields.io/github/license/emoji-gen/clone-into.svg)](LICENSE)
 
-ArrayBuffer loader for webpack
+:dvd: ArrayBuffer loader for webpack
+
+<br>
+<br>
 
 ## Supported Platforms
 
