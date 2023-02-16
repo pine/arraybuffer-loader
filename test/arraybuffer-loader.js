@@ -36,4 +36,12 @@ describe('binary files', function () {
 
     expect(binarray.length).to.have.length.equal(0)
   })
+
+  it('can bundle a massive file', function () {
+    // source: https://github.com/datasets/world-cities/blob/34baffd/data/world-cities.csv
+    var buffer   = require('arraybuffer!./data/world-cities.csv')
+    var binarray = new Uint8Array(buffer)
+
+    expect(binarray.length).to.have.length.equal(872568)
+  })
 })
